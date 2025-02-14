@@ -9,10 +9,12 @@ set(cpu_PARAMS ${cpu_PARAMS}
 
     # Other parameters
     # -mcpu, -mfloat, -mfloat-abi, ...
-    -mcpu=cortex-m4
-	-mfpu=fpv4-sp-d16
-	-mfloat-abi=hard
-	
+    # -mcpu=cortex-m4
+	# -mfpu=fpv4-sp-d16
+	# -mfloat-abi=hard
+
+	# we want to use only the instructions available on the Cortex-M0
+	-mcpu=cortex-m0
 )
 
 # Linker script

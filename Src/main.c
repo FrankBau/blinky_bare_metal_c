@@ -25,12 +25,12 @@ void delay() {
 
 int main(void)
 {
-    *(uint32_t *)0x4002104c |= 1 << 1;
-    *(uint32_t *)0x48000400 |= 1 << 6;
-    *(uint32_t *)0x48000400 &= ~(1 << 7);
+    *(volatile uint32_t *)0x4002104c |= 1 << 1;
+    *(volatile uint32_t *)0x48000400 |= 1 << 6;
+    *(volatile uint32_t *)0x48000400 &= ~(1 << 7);
 
     for(;;) {
-        *(uint32_t *)0x48000414 ^= 1 << 3;
+        *(volatile uint32_t *)0x48000414 ^= 1 << 3;
         delay();
     }
 }
