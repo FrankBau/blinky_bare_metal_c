@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "blinky_bare_bare_metal::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-blinky_bare_bare_metal-Debug-d73590d8e33f279dd3a3.json",
+					"jsonFile" : "target-blinky_bare_bare_metal-Debug-01d9250178fcb2c807cd.json",
 					"name" : "blinky_bare_bare_metal",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/frank/OneDrive/Lehre/RO MPT ES/RO/blinky_bare_metal_c/build/debug",
-		"source" : "C:/Users/frank/OneDrive/Lehre/RO MPT ES/RO/blinky_bare_metal_c"
+		"build" : "C:/Users/frank/OneDrive/Lehre/RO MPT ES/blinky_bare_metal_c/build/debug",
+		"source" : "C:/Users/frank/OneDrive/Lehre/RO MPT ES/blinky_bare_metal_c"
 	},
 	"version" : 
 	{
